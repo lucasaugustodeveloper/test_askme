@@ -1,0 +1,15 @@
+.card {
+  padding: 1rem 0;
+}
+
+.card__image img {
+  display: block;
+  width: 2.3rem !important;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+}
+
+.card__title {
+  margin-bottom: 1rem;
+}
