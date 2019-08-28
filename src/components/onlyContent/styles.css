@@ -1,0 +1,15 @@
+.logos {
+  max-width: 1025px;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.logos img {
+  display: inline-block;
+  width: calc(100% / 2);
+  height: 100%;
+}
+
+.containerButton {
+  margin: 3rem auto;
+}
