@@ -1,0 +1,12 @@
+.benefits {
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  overflow: hidden;
+  max-width: 1025px;
+
+  background: rgba(84, 0, 241, 0.5);
+}
+.benefits h1 {
+  text-transform: uppercase;
+}
