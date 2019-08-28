@@ -1,0 +1,91 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  padding: 1rem 0;
+  background: #edeef0;
+}
+
+.header__button {
+  width: 100%;
+  height: 2rem;
+  margin-top: 0.6rem;
+  padding: 0;
+
+  cursor: pointer;
+
+  border: none;
+  border-radius: 0.3rem;
+  background: #39e49f;
+}
+.header__button__row {
+  width: 80%;
+  height: 0.2rem;
+  margin: 0 auto;
+  margin-bottom: 0.2rem;
+
+  border: none;
+
+  background: #fff;
+}
+.header__button__row:last-child {
+  margin-bottom: 0;
+}
+
+.header__menu__nav {
+  width: 20vh;
+  height: 100%;
+  position: absolute;
+  left: -30vh;
+  top: 0;
+
+  background: #edeef0;
+  box-shadow: 0.15rem 0 0.1rem rgba(0, 0, 0, 0.3);
+
+  transition: left 0.5s linear;
+}
+.header__menu__nav.active {
+  left: 0;
+}
+.header__menu__nav ul {
+  list-style: none;
+  padding: 0;
+}
+.header__menu__nav li {
+  text-align: left;
+
+  margin-bottom: 1rem;
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+
+@media (min-width: 48em) {
+  .header__button {
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 62em) {
+  .header__button {
+    display: none;
+  }
+
+  .header__menu__nav {
+    position: relative;
+    width: 100%;
+    margin-top: 0;
+    left: 0;
+
+    background: none;
+    box-shadow: none;
+  }
+  .header__menu__nav ul {
+    margin: 0;
+  }
+  .header__menu__nav li {
+    display: inline-block;
+    margin: 0;
+    margin-top: 0.6rem;
+  }
+}
